@@ -1,0 +1,40 @@
+.add-note {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1.3rem auto;
+  text-align: center;
+}
+
+.form {
+  width: 70vw;
+}
+
+.add-note input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid rgba(182, 181, 181, 0.842);
+  outline: lightgrey;
+}
+
+.btn {
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.3rem;
+  letter-spacing: 3px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid rgb(168, 168, 168);
+  cursor: pointer;
+  outline: lightgrey;
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    width: 80vw;
+  }
+}

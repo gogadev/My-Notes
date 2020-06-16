@@ -1,0 +1,41 @@
+header {
+  width: 70vw;
+  background: whitesmoke;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem auto;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.title {
+  width: 70vw;
+  padding: 0.4rem;
+  letter-spacing: 5px;
+  background: rgba(233, 232, 232, 0.829);
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.title span {
+  color: grey;
+  font-size: 2.3rem;
+}
+
+.notes {
+  width: 18%;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    width: 80vw;
+  }
+  .notes {
+    width: 40%;
+  }
+  .title {
+    width: 80vw;
+  }
+}

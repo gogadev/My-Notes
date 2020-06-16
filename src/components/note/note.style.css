@@ -1,0 +1,23 @@
+.note {
+  width: 70vw;
+  border: 1px solid rgb(184, 182, 182);
+  padding: 0.4rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit-btn,
+.delete-btn {
+  width: 80%;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .note {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,33 @@
+.edit-note {
+  margin: 1rem auto;
+}
+
+.edit-form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+
+.form textarea {
+  width: 70vw;
+  text-align: center;
+  outline: lightgrey;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(196, 194, 194);
+  letter-spacing: 3px;
+}
+
+.edit-img {
+  display: flex;
+  margin: 0 auto;
+  width: 7%;
+}
+
+@media only screen and (max-width: 800px) {
+  .form textarea {
+    width: 80vw;
+  }
+}
